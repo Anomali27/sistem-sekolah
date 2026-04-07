@@ -17,8 +17,10 @@
         </div>
     </header>
     <!-- Header End -->
+
+    <!-- Main Start -->
     <main class="grow container mx-auto">
-        <div class="mt-8">
+        <div class="mt-8 space-y-4">
             <!-- Card Header Start -->
              <div class="bg-white shadow p-4 rounded-lg">
                 <h1 class="font-bold text-2xl">Daftar Siswa</h1>
@@ -28,7 +30,7 @@
             
             <!-- Card Content Start-->
              <div class="bg-white rounded-lg shadow p-4 my-4">
-                <table class="">
+                <table class="w-full">
                     <thead class="bg-gray-200">
                         <tr>
                             <th class="px-4 py-2 text-left">No</th>
@@ -47,7 +49,7 @@
                             <td class="px-4 py-2 text-left">9012</td>
                             <td class="px-4 py-2 text-left">081346142556</td>
                             <td class="px-4 py-2">
-                                <div class="flex justify-center items-center">
+                                <div class="flex justify-center items-center gap-4">
                                     <a href="" class="text-green-500 ">Detail</a>
                                     <a href="" class="text-yellow-500">Edit</a>
                                     <a href="" class="text-red-500">Hapus</a>
@@ -60,6 +62,8 @@
             <!-- Card Content End -->
         </div>
     </main>
+    <!-- Main End -->
+
     <!-- Footer Start -->
     <footer class="bg-gray-800 text-white p-4 text-center">
         2026 - SMK Kristen Immanuel Pontianak - Sistem Sekolah
