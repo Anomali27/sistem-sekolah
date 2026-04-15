@@ -4,7 +4,7 @@ require_once '../app/core/Controller.php';
 require_once '../app/models/Student.php';
 
 
-use App\core\Controller;
+use App\Core\Controller;
 use App\Models\Student;
 
 class StudentController extends Controller
@@ -12,7 +12,12 @@ class StudentController extends Controller
 
     public function index()
     {
-        $this -> view('students.index');
+        $studentModel = new Student();
+        $students = $studentModel->getStudents();
+        
+        $this -> view('students.index', [
+            'students'=>$students
+        ]);
     }
 
     public function create()
