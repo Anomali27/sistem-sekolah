@@ -16,7 +16,7 @@ class Database
         );
 
         if(!$this->connection){
-            die('Error to connect dadtabase');
+            die('Error to connect database');
         }
 
     }
