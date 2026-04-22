@@ -45,7 +45,7 @@ class Router
                 call_user_func_array([$controller, $function], $matches);
                 //index($parameter1, $parameter2, dst);
                 //example : call_user_func_array(['StudentController, 'index'][1,2])
-                return;
+                return;         
 
             }
         }
